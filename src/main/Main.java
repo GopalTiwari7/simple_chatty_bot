@@ -33,4 +33,7 @@ public class Main {
             System.out.printf("%d!\n", i);
         }
     }
+    static void test(){
+
+    }
 }
