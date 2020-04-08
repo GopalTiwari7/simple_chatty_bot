@@ -41,5 +41,12 @@ public class Main {
         System.out.println("2. To decompose a program into several small subroutines.");
         System.out.println("3. To determine the execution of a program.");
         System.out.println("4. To interrupt the execution of a program.");
+        while (response) {
+            int input = scanner.nextInt();
+            if (input == 2)
+                break;
+            else
+                System.out.println("Please, try again");
+        }
     }
 }
