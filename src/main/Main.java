@@ -26,4 +26,7 @@ public class Main {
         int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
+    static void count(){
+
+    }
 }
