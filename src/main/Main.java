@@ -6,7 +6,12 @@ public class Main {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        greet("Dark", "2020"); // change it as you need
+        remindName();
+        guessAge();
+        count();
+        test();
+        end();
     }
     static void greet(String assistantName, String birthYear) {
         System.out.println("Hello! My name is " + assistantName + ".");
@@ -50,6 +55,6 @@ public class Main {
         }
     }
     static void end () {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!");
     }
 }
