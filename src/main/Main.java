@@ -17,4 +17,7 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("What a great name you have, " + name + "!");
     }
+    static void guessAge(){
+
+    }
 }
